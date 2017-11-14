@@ -10,6 +10,7 @@ namespace ConsoleApplication3
     {
         static void Main(string[] args)
         {
+            
             /*
             //variable_1_m
             Console.WriteLine("instert a number and press Enter");
@@ -66,13 +67,13 @@ namespace ConsoleApplication3
 
             Console.WriteLine("the sum of {0} and {1} is {2}, and the avrege of {0} and {1} is {3}", A, C, sum, avg);
             Console.ReadLine();
-            */
+            
             
             //operator_math_2_m
             Console.WriteLine("insert a number and press Enter");
             string lineM1 = Console.ReadLine();
             int numM1 = int.Parse(lineM1);
-            Console.WriteLine("insert another number");
+            Console.WriteLine("insert another number and press Enter");
             string lineM2 = Console.ReadLine();
             int numM2 = int.Parse(lineM2);
             Console.WriteLine("your numbers are {0} and {1}",numM1,numM2);
@@ -81,7 +82,80 @@ namespace ConsoleApplication3
             numM2 = numM3;
             Console.WriteLine("now numM1 is {0} and numM2 is {1}", numM1, numM2);
             Console.ReadLine();
+            
 
+            //operator_math_3_m
+            Console.WriteLine("insert a number and press Enter");
+            string lineMa1 = Console.ReadLine();
+            double numMa1 = double.Parse(lineMa1);
+            Console.WriteLine("insert another number and press Enter");
+            string lineMa2 = Console.ReadLine();
+            double numMa2 = double.Parse(lineMa2);
+            Console.WriteLine("your numbers are {0} and {1}", numMa1, numMa2);
+            double numMa3 = numMa1;
+            numMa1 = numMa2;
+            numMa2 = numMa3;
+            Console.WriteLine("now numMa1 is {0} and numMa2 is {1}", numMa1, numMa2);
+            Console.ReadLine();
+            
+
+            //operator_math_4_m
+            Console.WriteLine("insert a number and press Enter");
+            string lineMb1 = Console.ReadLine();
+            double numMb1 = double.Parse(lineMb1);
+            Console.WriteLine("insert another number and press Enter");
+            string lineMb2 = Console.ReadLine();
+            double numMb2 = double.Parse(lineMb2);
+            Console.WriteLine("insert another number and press Enter");
+            string lineMb3 = Console.ReadLine();
+            double numMb3 = double.Parse(lineMb3);
+
+            double mul = numMb1 * numMb2 * numMb3;
+            Console.WriteLine(mul);
+            Console.ReadLine();
+            
+
+            //operator_math_5_m
+            Console.WriteLine("insert a number and press Enter");
+            string lineMc1 = Console.ReadLine();
+            double first = double.Parse(lineMc1);
+            Console.WriteLine("insert another number and press Enter");
+            string lineMc2 = Console.ReadLine();
+            double second = double.Parse(lineMc2);
+
+            double result = first % second;
+            Console.WriteLine(result);
+            Console.ReadLine();
+            
+
+            //operator_math_6_m
+            Console.WriteLine("insert a number and press Enter");
+            string lineMd1 = Console.ReadLine();
+            int numMd1 = int.Parse(lineMd1);
+            numMd1 = ++numMd1;
+            Console.WriteLine(numMd1);
+            Console.ReadLine();
+            
+
+            //operator_math_7_m
+            Console.WriteLine("insert a number and press Enter");
+            string lineMe1 = Console.ReadLine();
+            int numMe1 = int.Parse(lineMe1);
+            numMe1 *= 3;
+            Console.WriteLine(numMe1);
+            Console.ReadLine();
+            
+
+            //operator_math_8_m
+            Console.WriteLine("please insert the radius of the circle");
+            string input = Console.ReadLine();
+            double radius = double.Parse(input);
+            double perimeter = (2 * 3.14159 * radius);
+            double paiR = (3.14159 * radius);
+            double area = (paiR * paiR);
+            Console.WriteLine("the perimeter of the circle is {0} and the area is {1}", perimeter, area);
+            Console.ReadLine();
+            */
         }
 
 
