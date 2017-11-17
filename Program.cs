@@ -8,9 +8,10 @@ namespace ConsoleApplication3
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            
+
             /*
             //variable_1_m
             Console.WriteLine("instert a number and press Enter");
@@ -156,8 +157,31 @@ namespace ConsoleApplication3
             Console.WriteLine("the perimeter of the circle is {0} and the area is {1}", perimeter, area);
             Console.ReadLine();
             */
+
+            //operator_relative_casting_precedence_1_m
+
+
+            Console.WriteLine("insert a number and press Enter");
+            string lineRC1 = Console.ReadLine();
+            int numRC1;
+            bool resuletRC1 = int.TryParse(lineRC1, out numRC1);
+            if (resulet == false)
+            {
+                Console.WriteLine("please insert a number only in digits and press Enter");
+                lineRC1 = Console.ReadLine();
+            }
+            Console.WriteLine("insert a number and press Enter");
+            string lineRC2 = Console.ReadLine();
+            int numRC2;
+            bool resuletRC2 = int.TryParse(lineRC2, out numRC2);
+            if (resulet == false)
+            {
+                Console.WriteLine("please insert a number only in digits and press Enter");
+                lineRC2 = Console.ReadLine();
+            }
+            int sum = numRC1 + numRC2;
+            int avrg = (numRC1 + numRC2) / 2;
+
+            Console.WriteLine("the avrge of your number is {0} and the sum is {1}", avrg, sum);
         }
-
-
     }
-}
