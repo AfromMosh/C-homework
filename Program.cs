@@ -170,6 +170,7 @@ namespace ConsoleApplication3
                 Console.WriteLine("please insert a number only in digits and press Enter");
                 lineRC1 = Console.ReadLine();
             }
+
             Console.WriteLine("insert a number and press Enter");
             string lineRC2 = Console.ReadLine();
             int numRC2;
@@ -183,5 +184,9 @@ namespace ConsoleApplication3
             int avrg = (numRC1 + numRC2) / 2;
 
             Console.WriteLine("the avrge of your number is {0} and the sum is {1}", avrg, sum);
+            
+
+
         }
     }
+}
