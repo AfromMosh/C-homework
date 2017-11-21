@@ -1,0 +1,160 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Console;
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            //loop_1_m
+            for(int i = 1; i <= 100; i++)
+            {
+                Console.WriteLine(i);
+            }
+            Console.ReadLine();
+
+            int num = 1;
+            while(num <=100)
+            {
+               
+                Write("{0},", num);
+                num++;
+            }
+           
+            Console.ReadLine();
+
+
+
+            //loop_2_m
+            int count;
+            int b = 0;
+            int a = 0;
+            for (count = 0; count < 5; count++ )
+            {
+                WriteLine("please insert a number and press Enter");
+                a = int.Parse(ReadLine());
+                b = a + b;
+            }
+
+            WriteLine("the sum of your numbers is {0}", b);
+            WriteLine("the avrege of your numbers is {0}", (b / count));
+
+            ReadLine();
+
+            //loop_3_m
+            int a1 = 0;
+            while (a1 < 50)
+            {
+                a1 = a1 +2;
+                WriteLine(a1);
+            }
+            ReadLine();
+
+            //loop_4_m
+            int a2 = 1;
+            while(a2<=50)
+            {
+                
+                if(a2%2 == 0)
+                {
+                    WriteLine(a2);
+                }
+                a2 += 3;
+            }
+            ReadLine();
+            
+            //loop_5_m
+            WriteLine("please insert a number and press Enter");
+            
+            int b3 = int.Parse(ReadLine());
+            int countA = 1, a3;
+            for(a3 = 1; countA <= b3; countA++)
+            {
+                a3 = a3 * countA;
+            }
+            WriteLine(a3);
+            ReadLine();
+            
+
+
+            //loop_1_b
+
+            int count1b=0;
+            int b1b = 0;
+            int a1b = 0;
+
+            while (count1b < 10)
+            {
+                WriteLine("please insert a number and press Enter");
+                a1b = int.Parse(ReadLine());
+                b1b = a1b + b1b;
+                count1b++;
+            }
+
+
+            WriteLine("the sum of your numbers is {0}", b1b);
+            ReadLine();
+            
+
+            //loop_2_b
+            int a2b = 1;
+            while (a2b <= 50)
+            {
+
+                if (a2b % 2 == 1)
+                {
+                    WriteLine(a2b);
+                }
+                a2b++;
+            }
+            
+            ReadLine();                
+            
+
+            //loop_3_b
+            int a3b = 1;
+            while (a3b <= 50)
+            {
+
+                if (a3b % 2 == 0)
+                {
+                    WriteLine(a3b);
+                }
+                a3b += 5;
+            }
+            ReadLine();
+            */
+
+
+            //loop_4_b
+
+            WriteLine("please insert a number and press Enter");
+            double a4b = double.Parse(ReadLine());
+            double b4b = double.MaxValue;
+            while (a4b >=0)
+            {
+                
+                if (a4b < b4b)
+                {
+                    b4b = a4b;
+                    WriteLine(a4b);
+                    WriteLine("please insert a number and press Enter");
+                    a4b = double.Parse(ReadLine());
+                }
+                else
+                {
+                    WriteLine(b4b);
+                    WriteLine("please insert a number and press Enter");
+                    a4b = double.Parse(ReadLine());
+                }
+            }
+            WriteLine(b4b);
+            ReadLine();
+        }
+    }
+}
